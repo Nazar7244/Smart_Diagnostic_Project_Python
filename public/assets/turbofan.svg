@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 590 320">
+  <defs>
+    <linearGradient id="housing" x2="100%" y2="100%">
+      <stop stop-color="#2d4658"/>
+      <stop offset="1" stop-color="#111d2a"/>
+    </linearGradient>
+    <linearGradient id="shaft">
+      <stop stop-color="#405a6d"/>
+      <stop offset="1" stop-color="#26384a"/>
+    </linearGradient>
+    <radialGradient id="heat">
+      <stop stop-color="#e7ab65" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#dc753c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="exhaust">
+      <stop stop-color="#a75349" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#4b56a1" stop-opacity="0"/>
+    </linearGradient>
+    <path id="blade" d="M155 168Q140 136 152 87l18-7q-13 42 0 78z" fill="url(#housing)" stroke="#7d9eaf"/>
+    <path id="stage" d="M0 115q21 52 0 105h7q21-53 0-105z" fill="#31485b" stroke="#7591a4"/>
+  </defs>
+  <ellipse cx="274" cy="268" rx="183" ry="13" fill="#030a12" opacity=".55"/>
+  <path d="M410 131q29 13 53 10l65-11v81l-65-11q-24-3-53 10z" fill="url(#exhaust)"/>
+  <path d="M149 69h96q27 0 49 21l-69 3q-9 0-14 14l-6 14h87q19 0 38-8 19-8 42 1l30 14q25 9 65 11M149 254h97q30 0 48-23l-70 2q-13 0-17-16l-4-12h88q18 0 38 8 23 9 44-1l30-13q25-8 65-10" fill="none" stroke="#73bdcd" stroke-width="2"/>
+  <path d="M149 69h82q35 2 63 21h-70q-15 1-20 27h87q20 0 39-7 24-9 45 3l37 16v66l-37 16q-21 12-45 3-19-7-39-7h-87q5 22 20 24h70q-23 23-57 23h-88z" fill="url(#housing)" stroke="#7496a8" stroke-width="1.3"/>
+  <path d="M220 136h73l25 12h72l24-13 27 20 27 14-27 13-27 18-24-13h-72l-25 12h-73z" fill="#111f2d" stroke="#69879d"/>
+  <path d="M223 157h166l24-5 24 15-24 15-24-5H223z" fill="url(#shaft)" stroke="#8ba5b5"/>
+  <path d="M229 163h177m-177 11h177" fill="none" stroke="#83a1b3" opacity=".65"/>
+  <g>
+    <use xlink:href="#stage" x="209"/><use xlink:href="#stage" x="220"/>
+    <use xlink:href="#stage" x="232"/><use xlink:href="#stage" x="244"/>
+    <use xlink:href="#stage" x="256"/><use xlink:href="#stage" x="268"/>
+    <use xlink:href="#stage" x="280"/><use xlink:href="#stage" x="369"/>
+    <use xlink:href="#stage" x="380"/><use xlink:href="#stage" x="391"/>
+  </g>
+  <path d="M300 128q22-16 49-12l29 13-15 14h-46zm0 76q22 16 49 12l29-13-15-14h-46z" fill="#3d3230" stroke="#a89075"/>
+  <ellipse cx="344" cy="129" rx="34" ry="18" fill="url(#heat)"/>
+  <ellipse cx="344" cy="205" rx="34" ry="18" fill="url(#heat)"/>
+  <path d="M310 127l20 5 28-5m-48 77 20-5 28 5" fill="none" stroke="#e3ac73" opacity=".75"/>
+  <ellipse cx="160" cy="166" rx="68" ry="98" fill="url(#housing)" stroke="#81d0dd" stroke-width="1.6"/>
+  <ellipse cx="160" cy="166" rx="61" ry="91" fill="#142535" stroke="#608597" stroke-width="1.4"/>
+  <g transform="translate(160 166) scale(.78 1.15) translate(-160 -166)">
+    <use xlink:href="#blade"/><use xlink:href="#blade" transform="rotate(30 160 166)"/>
+    <use xlink:href="#blade" transform="rotate(60 160 166)"/><use xlink:href="#blade" transform="rotate(90 160 166)"/>
+    <use xlink:href="#blade" transform="rotate(120 160 166)"/><use xlink:href="#blade" transform="rotate(150 160 166)"/>
+    <use xlink:href="#blade" transform="rotate(180 160 166)"/><use xlink:href="#blade" transform="rotate(210 160 166)"/>
+    <use xlink:href="#blade" transform="rotate(240 160 166)"/><use xlink:href="#blade" transform="rotate(270 160 166)"/>
+    <use xlink:href="#blade" transform="rotate(300 160 166)"/><use xlink:href="#blade" transform="rotate(330 160 166)"/>
+  </g>
+  <ellipse cx="160" cy="166" rx="18" ry="22" fill="url(#shaft)" stroke="#8db9c6"/>
+  <path d="M61 107l17 12m-9-1 9 1-3-8M56 166h23m-8-5 8 5-8 5M61 228l17-12m-9 1 9-1-3 8M478 148h20m-7-4 7 4-7 4m-13 32h20m-7-4 7 4-7 4m-244-78h25m-7-4 7 4-7 4m-18 109h25m-7-4 7 4-7 4" fill="none" stroke="#4391cc" stroke-width="1.6"/>
+</svg>
